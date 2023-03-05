@@ -27,7 +27,7 @@
       <p>Vue</p>
     </span>
     <span>
-      <img src="src/assets/firebase.svg" class="image" />
+      <img src="../assets/firebase.svg" class="image" />
       <p>Firebase</p>
     </span>
   </div>
