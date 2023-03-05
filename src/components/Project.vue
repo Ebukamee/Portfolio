@@ -10,7 +10,7 @@
       <a href="https://todo-app-ebukamee.vercel.app" target='_blank' id="red"> Go live </a>
     </div>
     <div>
-      <img src="../assets/sneaker.png" alt="calculator" />
+      <img src="../assets/Sneaker.png" alt="calculator" />
       <h3>Sneaker E-commerce Website</h3>
       <p>Built with JavaScript and CSS</p>
       <a href="https://github.com/Ebukamee/Sneaker-Homepage" target='_blank' id="red"> Repository </a>
