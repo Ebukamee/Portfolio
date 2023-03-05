@@ -23,7 +23,7 @@
       <p>React</p>
     </span>
     <span>
-      <img src="s../assets/vue.svg" class="image" />
+      <img src="../assets/vue.svg" class="image" />
       <p>Vue</p>
     </span>
     <span>
