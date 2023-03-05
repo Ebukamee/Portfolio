@@ -2,6 +2,7 @@
 export default {
   name:"Nav",
   mounted() {
+    document.documentElement.className=this.Colors;
     const changeTheme = this.getTheme() || this.getPreference();
     let active = localStorage.getItem("user-theme");
     this.setTheme(changeTheme);
@@ -60,7 +61,7 @@ export default {
     Open() {
       this.Mepee = !this.Mepee
       if(this.Mepee) {
-      this.id="top"
+      this.id="tope"
     }
     else {
       this.id="close"
@@ -75,7 +76,7 @@ export default {
     <span v-html='src' @click="toggle" />
     <span v-html='src2' @click="Open" id="rotate" />
   </nav>
-  <div :id="id">
+  <div v-show="Mepee" id="top">
     <h4>Theme Colors</h4>
     <span v-for="(color, i) in Colors" :key="i" :id="color" class="circle" @click="Change(color)"></span>
   </div>

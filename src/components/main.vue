@@ -1,8 +1,17 @@
-<script setup>
-import Contact from "./Contact.vue";
-import Project from "./Project.vue";
-import Nav from "./Nav.vue";
-import Stack from "./Stack.vue";
+<script>
+  import Contact from "./Contact.vue";
+  import Project from "./Project.vue";
+  import Nav from "./Nav.vue";
+  import Stack from "./Stack.vue";
+  export default {
+    name:"Main",
+    components: {
+      Contact,
+      Project,
+      Nav,
+      Stack,
+    },
+  };
 </script>
 
 <template>
@@ -22,7 +31,7 @@ import Stack from "./Stack.vue";
         better user experience
       </p>
 
-      <a download="ebuka_cv" href="src/assets/cv.pdf"
+      <a download="ebuka_cv" href="../assets/cv.pdf"
         ><button>Download CV</button></a
       >
     </div>

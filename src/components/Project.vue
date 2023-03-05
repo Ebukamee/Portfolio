@@ -14,7 +14,7 @@
       <h3>Sneaker E-commerce Website</h3>
       <p>Built with JavaScript and CSS</p>
       <a href="https://github.com/Ebukamee/Sneaker-Homepage" target='_blank' id="red"> Repository </a>
-      <a href="https://ebuka.github.io/Sneaker-Homepage/" target='_blank' id="red"> Go live </a>
+      <a href="https://ebukamee.github.io/Sneaker-Homepage/" target='_blank' id="red"> Go live </a>
     </div>
     <div>
       <img src="../assets/randomuser.png" alt="calculator" />
@@ -32,10 +32,10 @@
     </div>
     <div>
       <img src="../assets/calculator.png" alt="calculator" />
-      <h3>Random User Generator</h3>
+      <h3>Calculator App</h3>
       <p>Built with ReactJs and CSS</p>
       <a href="https://github.com/Ebukamee/Calculator-app" target='_blank' id="red"> Repository </a>
-      <a href="https://replit.com/@Ebuuka/Calculator-App" target='_blank' id="red"> Go live </a>
+      <a href="https://Calculator-App.ebuuka.repl.co" target='_blank' id="red"> Go live </a>
     </div>
   </div>
 </template>

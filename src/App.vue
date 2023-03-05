@@ -1,16 +1,51 @@
-<script setup>
-const isLoading = false;
+<script>
 import Main from './components/main.vue'
 import emailjs from "@emailjs/browser"
+export default {
+  name:"App",
+  components: {
+    Main
+  },
+  data() {
+    return {
+      isLoading:true,
+    };
+  },
+
+  mounted() {
+    this.isLoading= false;
+    let active = localStorage.getItem("user-theme");
+    const changeTheme = this.getTheme() || this.getPreference();
+    this.setTheme(changeTheme);
+  },
+  methods : {
+    getTheme() {
+      return localStorage.getItem("user-theme");
+    },
+    setTheme(theme) {
+        localStorage.setItem("user-theme", theme);
+        this.userTheme = theme;
+        document.documentElement.id = theme;
+      },
+    getPreference() {
+        const DarkPre = window.matchMedia(
+          "(prefers-color-scheme : dark)"
+        ).matches;
+        if (DarkPre) {
+          return "dark-theme";
+        } else {
+          return "light-theme";
+        }
+      },
+  }
+};
 </script>
 
 <template>
   <div v-if="isLoading" id="load">
     <h3 class='space'>Dev<span>Ebuka</span></h3>
   </div>
-  <div v-else>
-  <Main />
-  </div>
+  <Main v-else />
 </template>
 
 <style scoped>
