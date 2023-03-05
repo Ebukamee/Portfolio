@@ -13,6 +13,9 @@ export default {
   },
 
   mounted() {
+    setTimeout(() => {
+      this.isLoading = false;
+    },5000);
     let active = localStorage.getItem("user-theme");
     const changeTheme = this.getTheme() || this.getPreference();
     this.setTheme(changeTheme);
