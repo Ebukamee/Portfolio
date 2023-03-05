@@ -11,11 +11,8 @@ export default {
       isLoading:true,
     };
   },
-  beforeMount() {
-    this.isLoading=true;
-  },
+
   mounted() {
-    this.isLoading= false;
     let active = localStorage.getItem("user-theme");
     const changeTheme = this.getTheme() || this.getPreference();
     this.setTheme(changeTheme);
