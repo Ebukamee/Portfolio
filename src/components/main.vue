@@ -31,7 +31,7 @@
         better user experience
       </p>
 
-      <a download="ebuka_cv" href="../assets/cv.pdf"
+      <a download="ebuka_cv" href="src/assets/cv.pdf"
         ><button>Download CV</button></a
       >
     </div>
