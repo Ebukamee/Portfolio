@@ -53,16 +53,17 @@ name:"Contact",
     <form @submit.prevent="sendEmail" ref="form">
       <h2>Contact Me</h2>
       <label>Name</label>
-      <input type="text" name="name" placeholder="Full Name" v-model="name" />
+      <input type="text" name="name" placeholder="Full Name" v-model="name" required />
       <label>Email</label>
       <input
         type="email"
         name="Email"
         placeholder="Enter Email"
         v-model="email"
+        required
       />
       <label>Your Message</label>
-      <textarea name="message" placeholder="Message..." v-model="message" />
+      <textarea name="message" placeholder="Message..." v-model="message" required />
       <button>Send Message</button>
     </form>
     <span v-for="(connect, i) in connect" :key="i">

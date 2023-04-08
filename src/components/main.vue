@@ -20,11 +20,11 @@
     <div id="bold">
       <h2>Hello, I am <span>Chukwuebuka Nwokike</span></h2>
       <br />
-      <h1><span>Frontend</span> developer</h1>
+      <h1><span>Software</span> Engineer</h1>
     </div>
     <div id="about">
       <p>
-        I am a dediacted Frontend developer who likes to create and build
+        I am a dediacted Frontend engineer who likes to create and build
         challenging projects. My carrer objective is to strive for excellence
         and precision at all times. I love bringing web designs to live with my
         knowledge and technical skills of web technologies in accesible way for
