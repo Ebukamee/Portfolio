@@ -31,8 +31,8 @@
         better user experience
       </p>
 
-      <a download="ebuka_cv" href="https://shorturl.at/uDHX8"
-        target="_blank"><button>Download CV</button></a
+      <a download="ebuka_cv" href="https://drive.google.com/file/d/15W8DrsHYVEfEHAYF5Vjq-rh_v0GKr6Jr/view?usp=sharing"
+        target="_blank"><button>View CV</button></a
       >
     </div>
     <Stack />

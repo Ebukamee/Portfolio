@@ -70,6 +70,7 @@ name:"Contact",
       <a :href="connect.href" v-html="connect.img" target="_blank">
         
       </a>
-    </span>
+    </span> <br />
+    <button><a href="mailto:chukwuebukanwokike2007@gmail.com" target="_blank">Send Email</a></button> <br />
   </div>
 </template>

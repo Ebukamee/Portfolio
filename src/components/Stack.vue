@@ -23,6 +23,10 @@
       <p>React</p>
     </span>
     <span>
+      <img src="../assets/redux.png" class="image" />
+      <p>Redux</p>
+    </span>
+    <span>
       <img src="../assets/vue.svg" class="image" />
       <p>Vue</p>
     </span>
