@@ -2,6 +2,14 @@
 <template>
   <div id="project">
   <h3>My Projects</h3>
+
+  <div>
+      <img src="../assets/room.png" alt="room" />
+      <h3>Room E-Commerce webapp</h3>
+      <p>Built with ReactJs, Redux, Firebase and CSS3</p>
+      <a href="https://github.com/Ebukamee/Authapp" target='_blank' id="red"> Repository </a>
+      <a href="https://authapp-blue.vercel.app" target='_blank' id="red"> Go live </a>
+    </div>
   <div>
       <img src="../assets/fylo.png" alt="fylo app" />
       <h3>Fylo App</h3>
@@ -41,8 +49,8 @@
       <img src="../assets/vigro.png" alt="calculator" />
       <h3>Vigro Website</h3>
       <p>Built with ReactJs and CSS</p>
-      <a href="https://github.com/Ebukamee/Authapp" target='_blank' id="red"> Repository </a>
-      <a href="https://authapp-blue.vercel.app" target='_blank' id="red"> Go live </a>
+      <a href="https://github.com/Ebukamee/AltschoolExam" target='_blank' id="red"> Repository </a>
+      <a href="https://altschool-exam-henna.vercel.app" target='_blank' id="red"> Go live </a>
     </div>
     <!-- <div>
       <img src="../assets/calculator.png" alt="calculator" />
