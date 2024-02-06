@@ -23,6 +23,11 @@ name:"Contact",
           alt: "Github logo",
           href: "https://github.com/Ebukamee",
         },
+        {
+          img: '<svg  class="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 50" width="50px" height="50px"><title>mail</title><path d="M3.8,0,62.48,47.85,118.65,0ZM0,80.52,41.8,38.61,0,4.53v76ZM46.41,42.37,3.31,85.57h115.9L78,42.37,64.44,53.94h0a3,3,0,0,1-3.78.05L46.41,42.37Zm36.12-3.84,40.35,42.33V4.16L82.53,38.53Z"/></svg>',
+          alt: "Email_me",
+          href: "mailto:chukwuebukanwokike2007@gmail.com",
+        },
       ],
     };
   },
@@ -66,11 +71,13 @@ name:"Contact",
       <textarea name="message" placeholder="Message..." v-model="message" required />
       <button>Send Message</button>
     </form>
-    <span v-for="(connect, i) in connect" :key="i">
+    <div class="flex">
+      <span v-for="(connect, i) in connect" :key="i">
       <a :href="connect.href" v-html="connect.img" target="_blank">
         
       </a>
-    </span> <br />
-    <button><a href="mailto:chukwuebukanwokike2007@gmail.com" target="_blank">Send Email</a></button> <br />
+    </span>
+    </div> <br />
+    <button><a href="#nav">Back to Top</a></button> <br />
   </div>
 </template>

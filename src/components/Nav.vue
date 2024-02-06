@@ -71,7 +71,7 @@ export default {
 };
 </script>
 <template>
-  <nav>
+  <nav id="nav">
     <h3 class='space'>Dev<span>Ebuka</span></h3>
     <span v-html='src' @click="toggle" />
     <span v-html='src2' @click="Open" id="rotate" />
